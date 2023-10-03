@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device, initial-scale=1.0"/>
+		<title>INFO2180 Lab 2</title>
+		<link href="./styles.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="header">
+				<img class="header-image" alt="my face" src="./my-face.jpg"/>
+				
+				<div class="header-desc">
+					<h1>Anthony Brown</h1>
+					<p>Passionate coder with an eye for innovation, constantly crafting digital solutions.</p>
+				</div>
+			</header>
+
+			<section class="main-content">
+				<main class="blogs">
+					<!-- Blog posts -->
+					<article class="blog-post">
+						<div class="article-heading">
+							<h2>Memory Arenas</h2>
+							<p>September 29, 2023 by Anthony</p>
+						</div>
+						<div class="article-post">
+							<img class="article-img-1" alt="Memory Visualizer" src="./mem-view.png"/>
+							<p>Memory management is a critical aspect of programming that can significantly impact both performance and reliability. One approach gaining popularity among developers is the use of memory arenas or memory pools. In this blog post, we'll explore what memory arenas are and why they are becoming a go-to technique for efficient memory management.</p>
+							<p>A memory arena, also known as a memory pool, is a technique in which a program allocates a large chunk of memory at the beginning and then manages smaller memory allocations within that chunk. Instead of requesting individual memory blocks from the operating system for each allocation, which can be relatively slow and resource-intensive, memory arenas pre-allocate a fixed amount of memory and parcel it out as needed.</p>
+						</div>
+					</article>
+
+					<hr/>
+					
+					<article class="blog-post">
+						<div class="article-heading">
+							<h2>Emacs(What can't you do)</h2>
+							<p>September 30, 2023 by Anthony</p>
+						</div>
+						<div class="article-post">
+							<img class="article-img-2" alt="Emacs logo" src="./emacs.png"/>
+							<p>In the world of text editors, Emacs stands as a towering giant renowned for its exceptional customizability. Beyond its capabilities as a text editor, Emacs empowers users to sculpt their editing environment into a finely tuned instrument. In this blog post, we'll explore the remarkable beauty of Emacs customizability and why it continues to captivate a dedicated community of users.</p>
+							<p>Emacs is not just a text editor; it's a framework for building your ideal editing environment. At its core, Emacs is essentially a Lisp interpreter, which means that nearly every aspect of its functionality can be customized and extended using Emacs Lisp. This flexibility opens the door to limitless possibilities for tailoring your editing experience.</p>
+						</div>
+					</article>
+				</main>
+
+				<aside class="sidebar">
+					<!-- Sidebar -->
+					<div class="about">
+						<h3>About</h3>
+						<p>I'm Anthony, a final-year computing student at UWI, obsessed with low-level programming. Let's dive into tech challenges together!</p>
+					</div>
+
+					<div class="links">
+						<h3>Social Media</h3>
+						<ul>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Linkedin</a></li>
+						</ul>
+					</div>
+
+					<div class="archives">
+						<h3>Archives</h3>
+						<ul>
+							<li><a href="#">June 2020</a></li>
+							<li><a href="#">July 2020</a></li>
+							<li><a href="#">August 2020</a></li>
+							<li><a href="#">September 2020</a></li>
+						</ul>
+					</div>										
+				</aside>
+			</section>
+						
+			<footer>
+				<p>Copyright &copy; 2023, Anthony Brown</p>
+			</footer>
+		</div>
+	</body>
+</html>
